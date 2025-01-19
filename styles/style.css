@@ -6,9 +6,12 @@
 
 
 /* Common Styles */
-
 body{
     font-family: "Poppins", serif;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
 }
 .d-flex{
     display: flex;
@@ -25,11 +28,16 @@ body{
 }
 .header-container nav{
     justify-content: space-between;
-    padding: 60px 0 50px 0;
+    padding: 90px 0 50px 0;
 }
 .header-container nav .nav-logo{
     align-items: center;
     justify-content: center;
+}
+.header-container .nav-logo h1{
+    font-size: 24px;
+    font-weight: 700;
+    color: #3A3A3A;
 }
 .header-container nav .nav-menu ul{
     align-items: center;
@@ -48,4 +56,46 @@ body{
 .header-container nav .nav-menu li a:hover{
     color: #E02C6D;
     transition: 0.5s;
+}
+/* Hero Section Style */
+.hero-section{}
+.hero-section .hero-container{
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-section .hero-container{}
+.hero-section .hero-container{}
+.hero-section .hero-container .hero-left{}
+.hero-section .hero-container .hero-left .hero-text{
+    max-width: 582px;
+}
+.hero-section .hero-container .hero-left .hero-text h2{
+    font-size: 52px;
+    font-weight: bold;
+    color: #3A3A3A;
+}
+.hero-section .hero-container .hero-left .hero-text p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #3A3A3A;
+    margin: 16px 0;
+}
+.hero-section .hero-container .hero-left .hero-text #hero-btn{
+    padding: 10px 25px;
+    border-radius: 41px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #E02C6D;
+    color: white;
+    border: none;
+}
+.hero-section .hero-container .hero-right img{
+    max-width: 440px;
+}
+.hero-section .hero-container .hero-right{
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
