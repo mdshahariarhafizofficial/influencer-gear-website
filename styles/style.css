@@ -58,14 +58,10 @@ body{
     transition: 0.5s;
 }
 /* Hero Section Style */
-.hero-section{}
 .hero-section .hero-container{
     justify-content: space-between;
     align-items: center;
 }
-.hero-section .hero-container{}
-.hero-section .hero-container{}
-.hero-section .hero-container .hero-left{}
 .hero-section .hero-container .hero-left .hero-text{
     max-width: 582px;
 }
@@ -99,3 +95,20 @@ body{
     background-size: cover;
     background-position: center center;
 }
+/* Brand Section Styles */
+.brands-section{
+    margin: 70px 0 100px 0;
+}
+.brands-section .brand-container{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 36px 61px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 2px, rgba(0, 0, 0, 0.1) 0px 0px 2px; */
+}
+/* Brand Section Styles */
+/* Brand Section Styles */
+/* Brand Section Styles */
+/* Brand Section Styles */
+/* Brand Section Styles */
