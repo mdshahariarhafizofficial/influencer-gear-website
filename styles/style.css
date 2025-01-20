@@ -10,14 +10,14 @@ body{
     font-family: "Poppins", serif;
 }
 .container{
-    max-width: 1110px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .d-flex{
     display: flex;
 }
 
-/* Header Style */
+/* Header Styles */
 .header-container{
     max-width: 1200px;
     margin: 0 auto;
@@ -28,7 +28,7 @@ body{
 }
 .header-container nav{
     justify-content: space-between;
-    padding: 90px 0 50px 0;
+    padding: 50px 0 50px 0;
 }
 .header-container nav .nav-logo{
     align-items: center;
@@ -173,6 +173,7 @@ body{
 .products-section .see-more-btn{
     margin: 50px 0;
     text-align: end;
+    padding-right: 10px;
 }
 .products-section .see-more-btn button{
     padding: 0;
@@ -184,10 +185,85 @@ body{
     font-weight: bold;
 }
 
-
-
-
 /* Brand Section Styles */
-/* Brand Section Styles */
+.featured-section{
+    margin: 100px 0;
+}
+.featured-section .featured-container{
+    gap: 96px;
+    align-items: center;
+}
+.featured-section .featured-container .feature-right h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #0A0826;
+    margin-bottom: 16px;
+}
+.featured-section .featured-container .feature-right p{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 28px;
+    color: #6C6C6C;
+    width: 501;
+    margin-bottom: 16px;
+}
+.featured-section .featured-container .feature-right button{
+    padding: 10px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #E02C6D;
+    color: white;
+    border: none;
+}
+
+/* Footer Section Styles */
+footer{
+    background: #0A0826;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+footer .footer-logo{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+ footer .footer-logo h1{
+    font-size: 20px;
+    font-weight: 700;
+}
+footer .footer-logo img{
+    width: 45px;
+    margin-right: 10px;
+}
+footer p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+footer .social-media{
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+footer .social-media .circle-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    padding: 10px;
+    background: #18191F;
+    border-radius: 50%;
+}
+footer .social-media .circle-div a{
+    text-decoration: none;
+    color: white;
+}
+footer .social-media .circle-div a:hover{
+    color: #E02C6D;
+}
 /* Brand Section Styles */
 /* Brand Section Styles */
