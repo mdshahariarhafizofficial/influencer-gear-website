@@ -90,6 +90,10 @@ body{
     color: white;
     border: none;
 }
+.hero-section .hero-container .hero-left .hero-text #hero-btn:hover{
+    background: #0A0826;
+    transition: 0.5s;
+}
 .hero-container .hero-left .hero-text .arrow-icon{
     margin-left: 8px;
 }
@@ -184,6 +188,10 @@ body{
     font-size: 16px;
     font-weight: bold;
 }
+.products-section .see-more-btn button:hover{
+    color: #0A0826;
+    transition: 0.5s;
+}
 
 /* Brand Section Styles */
 .featured-section{
@@ -214,6 +222,10 @@ body{
     background: #E02C6D;
     color: white;
     border: none;
+}
+.featured-section .featured-container .feature-right button:hover{
+    background: #0A0826;
+    transition: 0.5s;
 }
 
 /* Footer Section Styles */
