@@ -52,6 +52,7 @@ body{
     font-size: 16px;
     font-weight: 600;
     color: #3A3A3A;
+    outline: none;
 }
 .header-container nav .nav-menu li a:hover{
     color: #E02C6D;
@@ -277,5 +278,70 @@ footer .social-media .circle-div a{
 footer .social-media .circle-div a:hover{
     color: #E02C6D;
 }
-/* Brand Section Styles */
-/* Brand Section Styles */
+
+/* Responsive Media Query */
+.hide{
+    display: none;
+}
+
+/* For smaller Device */
+@media screen and (max-width: 576px) {
+    .header-container nav{
+        flex-direction: column;
+    }
+    .header-container nav .nav-menu ul{
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+    .hero-section .hero-container{
+        flex-direction: column-reverse;
+        padding: 0 20px;
+        text-align: center;
+    }
+    .brands-section .brand-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
+    .products-section .products-container{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 20px;
+    }
+    .products-section .see-more-btn{
+        text-align: center;
+    }
+    .featured-section .featured-container{
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+/* For medium Device */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .header-container nav{
+        flex-direction: column;
+    }
+    .header-container nav .nav-menu ul{
+        padding: 30px;
+    }
+    .hero-section .hero-container{
+        flex-direction: column-reverse;
+        padding: 0 30px;
+        text-align: center;
+    }
+    .brands-section .brand-container{
+        grid-template-columns: repeat(4, 1fr);
+        gap: 50px;
+    }
+    .products-section .products-container{
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
+    }
+    .products-section .see-more-btn{
+        text-align: center;
+    }
+    .featured-section .featured-container{
+        padding: 20px;
+        gap: 40px;
+    }
+}
